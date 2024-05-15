@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Reserved table</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <h2>Veltoria</h2>
+        <p id="luxury">Where Luxury Meets Flavor</p>
+    </div>
+    <header class="headerblack flex">
+        <h1><a href="index.html">Veltoria</a></h1>
+        <nav class="navigation">
+            <ul class="flex">
+                <li><a class="nav-a" href="index.html">MENU</a></li>
+                <li><a class="nav-a" href="#">BOOK A TABLE</a></li>
+                <li><a class="nav-a" href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="for-data-content flex">
+            <div class="flex date-container">
+                <div class="date-component">DATE</div>
+                <div class="date-component">TIME</div>
+                <div class="date-component number-component">NUMBER OF<br> GUESTS</div>
+            </div>
+        </div>
+        <div class="wrapper-calendar">
+            <div class="header-calendar">
+                <div class="current-date">
+                    <p class="year"></p>
+                    <p class="month"></p>
+                </div>
+                <div class="icons-calendar flex">
+                    <div class="fa-solid" id="prev"></div>
+                    <div class="fa-solid" id="next"></div>
+                </div>
+            </div>
+            <div class="calendar">
+                <ul class="weeks">
+                    <li>SUNDAY</li>
+                    <li>MONDAY</li>
+                    <li>TUESDAY</li>
+                    <li>WEDNESDAY</li>
+                    <li>THURSDAY</li>
+                    <li>FRIDAY</li>
+                    <li>SATURDAY</li>
+                </ul>
+                <ul class="days">
+                </ul>
+            </div>
+        </div>
+        <div class="order-container">
+            <label for="time">TIME</label>
+
+            <input class="input-container" id="time" name="time" type="time">
+            <label for="numberguest">NUMBER OF GUESTS</label>
+
+            <input class="input-container" id="numberguest" name="numberguest" type="number" maxlength="100">
+
+                <label for="phonenum">PHONE NUMBER</label>
+                            <div class="number-section">
+                <p><i class="fa-solid fa-plus"></i>995&ensp;</p>
+                <input class="input-container" id="phonenum" name="phonenum" type="number" maxlength="14">
+            </div>
+            <button class="black-order-btn" id="black-order-btn" type="button" onclick="location.href='code.html'">BOOK
+                A TABLE</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-icon flex">
+            <a href="#" target="_blank"><img src="img/Vector.png" alt="instagram" class="social"></a>
+            <a href="#" target="_blank"><img src="img/Vector (1).png" alt="twitter" class="social"></a>
+            <a href="#" target="_blank"><img src="img/Vector (2).png" alt="facebook" class="social"></a>
+        </div>
+    </footer>
+    <script src="js/calendar.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/wall.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="https://kit.fontawesome.com/f3bc6e5cae.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
