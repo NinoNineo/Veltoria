@@ -46,7 +46,7 @@
 }
 
 .start-content {
-    width: 946px;
+    width: 90%;
     margin: 200px auto;
     margin-bottom: 228px;
     color: #ffffff;
@@ -130,7 +130,7 @@ header {
 }
 
 .navigation {
-    width: 442px;
+    width: 40%;
     float: right;
     display: inline;
 }
@@ -270,7 +270,6 @@ header {
     border: none;
     top: 34px;
     left: 142px;
-    font-size: 18px;
 }
 
 .food-description p {
@@ -280,6 +279,12 @@ header {
 
 .food-icon {
     margin-bottom: 68px;
+    width: 166px;
+    height: 166px;
+}
+
+.food-icon img {
+    width: 100%;
 }
 
 .more {
@@ -348,6 +353,8 @@ footer .footer-icon {
     border-radius: 20px;
     box-shadow: inset 0 8px 10px #00000030;
     padding: 20px 82px;
+    height: 74px;
+    text-align: center;
 }
 
 .wrapper-calendar .header-calendar {
@@ -560,12 +567,12 @@ input::-webkit-inner-spin-button {
 
 .aboutus .aboutcook img {
     height: 100%;
-    filter: grayscale(50%)contrast(145%)brightness(85%);
+    filter: grayscale(50%)contrast(135%)brightness(85%);
     transition: 0.5s;
 }
 
 .aboutus .aboutcook img:hover {
-    filter: grayscale(20%)contrast(120%)brightness(90%);
+    filter: grayscale(20%)contrast(110%)brightness(90%);
 }
 
 .aboutus .aboutus-texti {
@@ -580,30 +587,324 @@ input::-webkit-inner-spin-button {
 
 /* ----------------------------------------------- */
 
-
-@media only screen and (max-width: 1140px) {
-    body{
-        font-size: 16px;
+@media only screen and (min-width: 2000px) {
+    * {
+        font-size: 36px;
     }
+
+    .main-container {
+        margin-top: 880px;
+    }
+
+    .start-content {
+        margin: 20% auto;
+    }
+
+    .headerwhite h1 a,
+    .headerblack h1 a {
+        font-size: 46px;
+    }
+
+    .navigation {
+        width: 40%;
+    }
+
+    .food-description p {
+        margin: auto;
+        font-size: 22px;
+    }
+
+    .food-description {
+        padding: 24px 52px;
+        width: 470px;
+        height: 100px;
+        top: 34px;
+        left: 142px;
+    }
+
+    .food-content {
+        width: 700px;
+    }
+
+    .food-icon {
+        width: 240px;
+        margin-bottom: 112px;
+    }
+
+    .navigation ul li a {
+        color: #ffffff;
+        padding: 26px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .navigation {
+        width: 50%;
+    }
+
+    .navigation ul li a {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    * {
+        font-size: 18px;
+    }
+
     .start-content h2 {
         font-size: 44px;
 
     }
+
     .start-content p {
         font-size: 24px;
     }
+
     .start-content .book-btn {
         padding: 10px 60px;
         font-size: 30px;
     }
-    .start-content{
-margin: 14% auto 4% auto;
+
+    .start-content {
+        margin: 14% auto 4% auto;
     }
-    .main-container{
+
+    .main-container {
         margin-top: 200px;
+        padding: 0 36px 36px 36px;
     }
+
     .menu-btn {
         padding: 10px 60px;
         font-size: 30px;
+    }
+
+    .menu-container {
+        padding: 0px;
+        height: 830px;
+    }
+
+    .food-content {
+        width: 468px;
+    }
+
+    .food-icon {
+        width: 116px;
+        margin-bottom: 8px;
+    }
+
+    .food-description {
+        padding: 22px 48px;
+        width: 284px;
+        /* height: 88px; */
+        height: auto;
+        top: 15px;
+        left: 106px;
+    }
+
+    .food-description p {
+        margin: auto;
+    }
+
+    .navigation {
+        width: 58%;
+        flex-wrap: nowrap;
+    }
+
+    .navigation ul li a {
+        padding: 12px;
+    }
+
+    .headerblack .navigation ul li a,
+    .headerwhite .navigation ul li a {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 20px;
+    }
+
+    .body1 {
+        background-image: url(../img/2560_aska_shop\ 1.png);
+        background-size: 150vh;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+    main {
+        padding-top: 150px;
+    }
+
+    header {
+        padding: 16px 50px 0 50px;
+    }
+
+    .navigation {
+        width: 50%;
+    }
+
+    .navigation ul li {
+        margin: 20px;
+    }
+
+    .headerblack .navigation ul li a,
+    .headerwhite .navigation ul li a {
+        padding: 10px;
+    }
+
+    .headerwhite h1 a,
+    .headerblack h1 a {
+        font-size: 26px;
+    }
+
+    .start-content {
+        margin: 10% auto 4% auto;
+        width: 94%;
+    }
+
+    .start-content h2 {
+        font-size: 30px;
+    }
+
+    .start-content p {
+        font-size: 18px;
+    }
+
+    .wrapper-calendar {
+        width: 100%;
+        box-shadow: inset 0 10px 4px #00000030;
+        border: #000000 solid 1px;
+    }
+
+    .input-container {
+        width: 100%;
+        box-shadow: none;
+        border: #000000 solid 1px;
+        box-shadow: inset 0 10px 4px #00000030;
+    }
+
+    .number-section {
+        width: 100%;
+    }
+
+    .date-component {
+        font-size: 20px;
+        border-radius: 20px;
+        border-bottom: #000000 solid 1px;
+        box-shadow: inset 0 10px 4px #00000030;
+        padding: 16px 74px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .navigation {
+        width: 60%;
+    }
+
+    .flex {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        display: block;
+    }
+
+    .aboutus {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .aboutus .aboutcook {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin: 40px 0;
+    }
+
+    .aboutus .aboutus-texti {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .aboutus .aboutcook img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .food-content {
+        width: 100%;
+    }
+
+    main {
+        padding-top: 416px;
+    }
+
+    .food-description {
+        padding: 19px 8px;
+        width: 68%;
+    }
+
+    .start-content h2 {
+        font-size: 22px;
+    }
+
+    .start-content p {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .headerwhite h1 a,
+    .headerblack h1 a {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 4px 8px 0 8px;
+    }
+
+    .navigation {
+        width: 80%;
+    }
+
+    .navigation ul li a {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .start-content .book-btn,
+    .menu-btn {
+        padding: 10px 60px;
+        font-size: 18px;
+    }
+
+    .main-container {
+        margin-top: 40px;
+        padding: 0 24px 24px 24px;
+    }
+
+    .for-btn {
+        margin-top: 50px;
+    }
+
+    .start-content p,
+    .start-content h2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .flex-column {
+        flex-direction: column;
     }
 }
