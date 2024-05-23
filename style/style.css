@@ -636,12 +636,10 @@ input::-webkit-inner-spin-button {
         padding: 26px;
     }
 }
-
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1130px){
     .navigation {
         width: 50%;
     }
-
     .navigation ul li a {
         padding: 12px;
     }
@@ -711,11 +709,9 @@ input::-webkit-inner-spin-button {
         width: 58%;
         flex-wrap: nowrap;
     }
-
     .navigation ul li a {
         padding: 12px;
     }
-
     .headerblack .navigation ul li a,
     .headerwhite .navigation ul li a {
         padding: 12px;
@@ -726,15 +722,13 @@ input::-webkit-inner-spin-button {
     * {
         font-size: 20px;
     }
-
     .body1 {
         background-image: url(../img/2560_aska_shop\ 1.png);
         background-size: 150vh;
         background-repeat: no-repeat;
         background-position-x: center;
     }
-
-    main {
+    main{
         padding-top: 150px;
     }
 
@@ -768,11 +762,9 @@ input::-webkit-inner-spin-button {
     .start-content h2 {
         font-size: 30px;
     }
-
     .start-content p {
         font-size: 18px;
     }
-
     .wrapper-calendar {
         width: 100%;
         box-shadow: inset 0 10px 4px #00000030;
@@ -839,9 +831,8 @@ input::-webkit-inner-spin-button {
     .food-content {
         width: 100%;
     }
-
-    main {
-        padding-top: 416px;
+    main{
+        padding-top: 286px;
     }
 
     .food-description {
@@ -866,11 +857,9 @@ input::-webkit-inner-spin-button {
     header {
         padding: 4px 8px 0 8px;
     }
-
     .navigation {
         width: 80%;
     }
-
     .navigation ul li a {
         padding: 8px;
         font-size: 12px;
@@ -890,9 +879,7 @@ input::-webkit-inner-spin-button {
     .for-btn {
         margin-top: 50px;
     }
-
-    .start-content p,
-    .start-content h2 {
+    .start-content p,.start-content h2{
         display: none;
     }
 }
